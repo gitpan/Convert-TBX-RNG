@@ -1,0 +1,74 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.70.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 0891e0a258dc6c49b1df29775469b90a03c0b8b6 Build.PL
+SHA1 98ff90e0ac947388197f93744f557805d2db97f6 Changes
+SHA1 2a9407a7bfb893c21c4c3a6a65d40510a9557d40 INSTALL
+SHA1 cce60b2d84c76e5781aeda6db2e20d815720475c LICENSE
+SHA1 e2f244e3a652d0703ab048d91a16c1c3d37ca119 MANIFEST
+SHA1 95d0cfc25b9ada32abbd5cdf1d36699f9639db08 MANIFEST.SKIP
+SHA1 217a38960683922272e64dd8e573ac0919bea193 META.json
+SHA1 7404654cda98e532ee3343bae1a4ad2e30ca0f98 META.yml
+SHA1 8ce3ac3bc11553005078acf3ef2b30d271bd933c Makefile.PL
+SHA1 639fc0b87cc01a7fb80a506e3f487b823b9e7504 README
+SHA1 3a627822ddc9fd22722afdb002fb33deb9a7a51c dist.ini
+SHA1 6c69aa0a2ac59196bb4227b889d8b14fe366c295 lib/Convert/TBX/RNG.pm
+SHA1 ffc44b7b116b0bf622c1836efc22f2a65bd57f30 perl-module.sublime-project
+SHA1 1cd3eded60eb7afb15955fc5ff680e1eceb7086d perl-module.sublime-workspace
+SHA1 e31a6c845e32adb271d09242b204b5c043c83805 share/TBXcoreStructV02.rng
+SHA1 4d658ed219d559fb5247c3aca6ba33846333d525 t/0-use.t
+SHA1 3bc0b1ba16a203bb92a8a2c853e84024bb3b139e t/00-compile.t
+SHA1 41c375dd883b439ab7da8c36aa50b39dda76228a t/000-report-versions-tiny.t
+SHA1 29aaf56959b4b355db97d5b060ff1a5e862196e7 t/01-sanity.t
+SHA1 d7604cca06fffea226e3bf1f01e23c85fef8c92f t/02-languages.t
+SHA1 0b82bad1f16be11f215239629d2971ebe8aa2a82 t/03-data_cats.t
+SHA1 8fbe26887ff0b3e5e52294f46fb541db950ee7f0 t/04-data_cat_levels.t
+SHA1 c83f942ab596e574d934e84d8a1d99664a786d6c t/05-datatypes.t
+SHA1 48c938401fcb93d776783d662f1fb51ce4a020ab t/TestRNG.pm
+SHA1 d0eb6bfa57a50c71059857d0892bd5042bb0e6db t/corpus/TBX-basic-sample.tbx
+SHA1 40ba5e9229048dec11f4f2a2a98221ab385f8ea1 t/corpus/TBXBasicXCSV02.xcs
+SHA1 3e3f4d56697bc0b7c223229bc9cc841e71f2d753 t/corpus/TBXBasiccoreStructV02.dtd
+SHA1 f8f6130f35670ac27a33986ab764857126feda4f t/corpus/TBXcoreStructV02.dtd
+SHA1 f53c675e06f2f270d47cfba2a30790980e98b2f4 t/corpus/min.tbx
+SHA1 557e326e842b0449e8682aeb5363815f13ce2a4d t/corpus/small.xcs
+SHA1 374f4f43967a81fb6ab49b433dae9336f676dced t/corpus/tbxxcsdtd.dtd
+SHA1 fd6f73b19c082d7405817f174c1961924788b1be t/perlcriticrc
+SHA1 d6d6207d7cd45b144f3ccb3d919fcb9e78d695e4 xt/author/critic.t
+SHA1 11aaede98e18303cc2165a79b3410515699f49b8 xt/release/cpan-changes.t
+SHA1 89fa2d90b498ee4a9820d733517e5e9f09d0f4df xt/release/dist-manifest.t
+SHA1 e248ab4f2aa94470b86a17c37811974ac4cea773 xt/release/distmeta.t
+SHA1 09d92304c90b7a2d9220c88736c2682e164ddb8f xt/release/kwalitee.t
+SHA1 740bb9d427d0414d09d238b51126806f2572a5bf xt/release/meta-json.t
+SHA1 117991f3fc788751b0f03858e1a56c3f4e09ae10 xt/release/minimum-version.t
+SHA1 b1da4a8e6238a6cfe0e7f6661a326145a457a158 xt/release/mojibake.t
+SHA1 d871b4f1157a1c1665bf72d5f79d71f692522490 xt/release/pod-coverage.t
+SHA1 1d80b49f2a2308b71ac72e81b5f02a28de5eb523 xt/release/pod-linkcheck.t
+SHA1 3ccc36a80a8b28952435b51a8435e1a40144a005 xt/release/pod-syntax.t
+SHA1 1a069c50c983ba173e7ae3a43135fc6c5b870c3d xt/release/portability.t
+SHA1 9f235ec34076209da46692fc5c6491d2b0a08cf1 xt/release/synopsis.t
+SHA1 bbcd59d081d9940af5d43337ae85458075933829 xt/release/test-version.t
+SHA1 b6a99eea80bc8dd05d2892b7818b25929a13499d xt/release/unused-vars.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.17 (MingW32)
+
+iQEcBAEBAgAGBQJRqUt/AAoJEF8b+BZrlpb0u5kH/0pzZbpYCyJkzi/y00Uaecl+
+CUZzqHSElLS4hT8EyY6XR9UQ8gUs28r4Ytr5azC4D52SsLsJsIQf7PxRQS4ojB2z
+DTZKjz/MmxsFnf7yAtMJcPdbEGEvVMbXc17ihg2wuczOBxgAyS2S3HBeRLeXK0Nm
++xRl8JkDrxlHF+zbb/ueNzuCLNjf4u0zBrs3mVhmUuGEUDtELR/J9pVzel5XLnS8
+gAP+ZvzX4/v3C6u10T51OIYVfLfHKwMVajZeZPhkNaimFCKJOXS0xfjTEg/9bSjR
+RpeN/iavVndVCL7hJkhuxE1L8vfECApPQ4zHKZXjDPfqLJfx7KWQRWYxHVd9vd8=
+=aXY4
+-----END PGP SIGNATURE-----
