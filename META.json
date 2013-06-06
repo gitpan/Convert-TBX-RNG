@@ -48,6 +48,7 @@
             "File::Slurp" : "0",
             "Path::Tiny" : "0",
             "TBX::XCS" : "0",
+            "TBX::XCS::JSON" : "0",
             "XML::Twig" : "0",
             "autodie" : "0",
             "feature" : "0",
@@ -66,6 +67,7 @@
             "Test::Base" : "0",
             "Test::Base::Filter" : "0",
             "Test::More" : "0.88",
+            "Test::NoWarnings" : "0",
             "XML::Jing" : "0"
          }
       }
@@ -73,7 +75,7 @@
    "provides" : {
       "Convert::TBX::RNG" : {
          "file" : "lib/Convert/TBX/RNG.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -92,7 +94,7 @@
          "web" : "https://github.com/byutrg/Convert-TBX-RNG"
       }
    },
-   "version" : "0.01",
+   "version" : "0.02",
    "x_BuiltWith" : {
       "modules" : {
          "Carp" : "1.26",
@@ -109,11 +111,13 @@
          "Path::Tiny" : "0.015",
          "Pod::Coverage::TrustPod" : "0.100002",
          "TBX::Checker" : "0.02",
-         "TBX::XCS" : "0.02",
+         "TBX::XCS" : "0.03",
+         "TBX::XCS::JSON" : "0.03",
          "Test::Base" : "0.60",
          "Test::Base::Filter" : "NA(undef)",
          "Test::CPAN::Meta" : "0.23",
          "Test::More" : "0.98",
+         "Test::NoWarnings" : "1.04",
          "Test::Pod" : "1.45",
          "Test::Pod::Coverage" : "1.08",
          "XML::Jing" : "0.02",

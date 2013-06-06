@@ -9,6 +9,7 @@ META.yml
 Makefile.PL
 README
 SIGNATURE
+bin/xcs2rng.pl
 dist.ini
 lib/Convert/TBX/RNG.pm
 perl-module.sublime-project

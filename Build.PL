@@ -18,7 +18,7 @@ my %module_build_args = (
     "Nathan Glenn <garfieldnate\@gmail.com>"
   ],
   "dist_name" => "Convert-TBX-RNG",
-  "dist_version" => "0.01",
+  "dist_version" => "0.02",
   "license" => "perl",
   "module_name" => "Convert::TBX::RNG",
   "recommends" => {},
@@ -31,6 +31,7 @@ my %module_build_args = (
     "File::Slurp" => 0,
     "Path::Tiny" => 0,
     "TBX::XCS" => 0,
+    "TBX::XCS::JSON" => 0,
     "XML::Twig" => 0,
     "autodie" => 0,
     "feature" => 0,
@@ -38,7 +39,9 @@ my %module_build_args = (
     "strict" => 0,
     "warnings" => 0
   },
-  "script_files" => [],
+  "script_files" => [
+    "bin/xcs2rng.pl"
+  ],
   "share_dir" => {
     "dist" => "share"
   },
@@ -51,6 +54,7 @@ my %module_build_args = (
     "Test::Base" => 0,
     "Test::Base::Filter" => 0,
     "Test::More" => "0.88",
+    "Test::NoWarnings" => 0,
     "XML::Jing" => 0
   }
 );

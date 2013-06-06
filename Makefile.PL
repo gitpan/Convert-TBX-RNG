@@ -21,7 +21,9 @@ my %WriteMakefileArgs = (
     "Module::Build" => "0.3601"
   },
   "DISTNAME" => "Convert-TBX-RNG",
-  "EXE_FILES" => [],
+  "EXE_FILES" => [
+    "bin/xcs2rng.pl"
+  ],
   "LICENSE" => "perl",
   "NAME" => "Convert::TBX::RNG",
   "PREREQ_PM" => {
@@ -32,6 +34,7 @@ my %WriteMakefileArgs = (
     "File::Slurp" => 0,
     "Path::Tiny" => 0,
     "TBX::XCS" => 0,
+    "TBX::XCS::JSON" => 0,
     "XML::Twig" => 0,
     "autodie" => 0,
     "feature" => 0,
@@ -47,9 +50,10 @@ my %WriteMakefileArgs = (
     "Test::Base" => 0,
     "Test::Base::Filter" => 0,
     "Test::More" => "0.88",
+    "Test::NoWarnings" => 0,
     "XML::Jing" => 0
   },
-  "VERSION" => "0.01",
+  "VERSION" => "0.02",
   "test" => {
     "TESTS" => "t/*.t"
   }
