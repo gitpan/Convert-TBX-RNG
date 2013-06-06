@@ -22,7 +22,7 @@ use Exporter::Easy (
     OK => [qw(generate_rng core_structure_rng)],
 );
 
-our $VERSION = '0.02'; # VERSION
+our $VERSION = '0.03'; # VERSION
 
 # ABSTRACT: Create an RNG to validate a TBX dialect
 
@@ -33,8 +33,8 @@ print ${ generate_rng( xcs_file => $ARGV[0] ) } unless caller;
 
 sub generate_rng {
     my (%args) = @_;
-    if ( not( $args{xcs_file} || $args{xcs_string} || $args{xcs}) ) {
-        croak "requires either 'xcs_file', 'xcs_string' 'xcs' parameters";
+    if ( not( $args{xcs_file} || $args{xcs_string} || $args{xcs} ) ) {
+        croak "requires either 'xcs_file', 'xcs_string' or 'xcs' parameters";
     }
     my $xcs = TBX::XCS->new();
     if ( $args{xcs_file} ) {
@@ -319,7 +319,7 @@ sub core_structure_rng {
 }
 
 sub _core_structure_rng_location {
-    return path( dist_dir('XML-TBX-Dialect'), 'TBXcoreStructV02.rng' );
+    return path( dist_dir('Convert-TBX-RNG'), 'TBXcoreStructV02.rng' );
 }
 
 1;
@@ -334,7 +334,7 @@ Convert::TBX::RNG - Create an RNG to validate a TBX dialect
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 DESCRIPTION
 

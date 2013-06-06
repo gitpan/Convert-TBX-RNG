@@ -75,7 +75,7 @@
    "provides" : {
       "Convert::TBX::RNG" : {
          "file" : "lib/Convert/TBX/RNG.pm",
-         "version" : "0.02"
+         "version" : "0.03"
       }
    },
    "release_status" : "stable",
@@ -94,7 +94,7 @@
          "web" : "https://github.com/byutrg/Convert-TBX-RNG"
       }
    },
-   "version" : "0.02",
+   "version" : "0.03",
    "x_BuiltWith" : {
       "modules" : {
          "Carp" : "1.26",

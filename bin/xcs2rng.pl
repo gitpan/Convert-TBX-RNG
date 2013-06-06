@@ -11,7 +11,7 @@ use strict;
 use warnings;
 # PODNAME: xcs2rng.pl
 #TODO: test this
-our $VERSION = '0.02'; # VERSION
+our $VERSION = '0.03'; # VERSION
 # ABSTRACT: Create an RNG from an XCS file
 #
 
@@ -26,7 +26,7 @@ if($ARGV[0] eq '--json'){
     my $xcs = xcs_from_json($json);
     $rng = generate_rng(xcs => $xcs);
 }else{
-    $rng = generate_rng(xcs_file => $ARGV[1]);
+    $rng = generate_rng(xcs_file => $ARGV[0]);
 }
 
 print $$rng;
@@ -41,7 +41,7 @@ xcs2rng.pl - Create an RNG from an XCS file
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 DESCRIPTION
 
