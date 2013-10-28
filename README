@@ -2,7 +2,7 @@ NAME
     Convert::TBX::RNG - Create an RNG to validate a TBX dialect
 
 VERSION
-    version 0.03
+    version 0.04
 
 DESCRIPTION
     This module creates RNG files for validating TBX dialects. Currently,

@@ -18,7 +18,7 @@ my %module_build_args = (
     "Nathan Glenn <garfieldnate\@gmail.com>"
   ],
   "dist_name" => "Convert-TBX-RNG",
-  "dist_version" => "0.03",
+  "dist_version" => "0.04",
   "license" => "perl",
   "module_name" => "Convert::TBX::RNG",
   "recommends" => {},
@@ -55,7 +55,8 @@ my %module_build_args = (
     "Test::Base::Filter" => 0,
     "Test::More" => "0.88",
     "Test::NoWarnings" => 0,
-    "XML::Jing" => 0
+    "Try::Tiny" => 0,
+    "XML::LibXML" => 0
   }
 );
 

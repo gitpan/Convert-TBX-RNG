@@ -51,9 +51,10 @@ my %WriteMakefileArgs = (
     "Test::Base::Filter" => 0,
     "Test::More" => "0.88",
     "Test::NoWarnings" => 0,
-    "XML::Jing" => 0
+    "Try::Tiny" => 0,
+    "XML::LibXML" => 0
   },
-  "VERSION" => "0.03",
+  "VERSION" => "0.04",
   "test" => {
     "TESTS" => "t/*.t"
   }

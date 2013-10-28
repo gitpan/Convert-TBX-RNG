@@ -11,7 +11,7 @@ use strict;
 use warnings;
 # PODNAME: xcs2rng.pl
 #TODO: test this
-our $VERSION = '0.03'; # VERSION
+our $VERSION = '0.04'; # VERSION
 # ABSTRACT: Create an RNG from an XCS file
 #
 
@@ -41,7 +41,7 @@ xcs2rng.pl - Create an RNG from an XCS file
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 DESCRIPTION
 

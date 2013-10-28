@@ -22,7 +22,7 @@ use Exporter::Easy (
     OK => [qw(generate_rng core_structure_rng)],
 );
 
-our $VERSION = '0.03'; # VERSION
+our $VERSION = '0.04'; # VERSION
 
 # ABSTRACT: Create an RNG to validate a TBX dialect
 
@@ -73,7 +73,6 @@ sub _constrain_languages {
 
     #make an RNG choice for the xml:lang attribute of langSet
     my $choice    = XML::Twig::Elt->new('choice');
-    my @lang_spec = ('choice');
     for my $abbrv ( sort keys %$languages ) {
         XML::Twig::Elt->new( 'value', $abbrv )->paste($choice);
     }
@@ -86,7 +85,7 @@ sub _constrain_languages {
 
 # add ref object choices to back matter
 sub _constrain_ref_objects {
-    my ( $rng, $ref_objects ) = @_;
+    # my ( $rng, $ref_objects ) = @_;
 
     #unimplemented
     return;
@@ -334,7 +333,7 @@ Convert::TBX::RNG - Create an RNG to validate a TBX dialect
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 DESCRIPTION
 
